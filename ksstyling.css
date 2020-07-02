@@ -120,10 +120,11 @@ a:active{
 	float:left;
 	box-sizing:border-box;
 	padding:2px;
-	height:800px;
+	height:690px;
 	width:300px;
 	/* border:2px dotted red; */
-	margin-left:10px;
+	margin-left:150px;
+	margin-bottom:30px;
 	text-align:center;
 	
 }
@@ -132,10 +133,11 @@ a:active{
 	float:right;
 	box-sizing:border-box;
 	padding:2px;
-	height:800px;
+	height:690px;
 	width:300px;
 	/* border:2px dotted blue; */
-	margin-right:110px;
+	margin-right:150px;
+	margin-bottom:30px;
 	text-align:center;
 	
 }
@@ -144,84 +146,62 @@ a:active{
 	float:center;
 	box-sizing:border-box;
 	padding:2px;
-	height:800px;
+	height:690px;
 	width:300px;
-/* border:2px dotted green; */
-text-align:center;
+    /* border:2px dotted green; */
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:30px;
+    text-align:center;
 }
 #i img{
 	box-sizing:border-box;
 	width:240px;
 	height:200px;
-	border:1px solid white;
-	display:block;
-	margin-left:20%;
-	margin-right:50%;
-	margin-top:10px;
-	margin-bottom:10px;
+	border:3px solid gray;
+	display:inline-block;
 	transition:tranform;
+	margin:15px;
+	border-radius:10px;
 
 }
 #i img:hover{
 	transform:scale(1.2);
+	border:3px solid  #18b512e6;
+	border-radius:1px;
 }
 #i img:focus{
 	transform:scale(1.2);
+	border:3px solid  #18b512e6;
+	border-radius:1px;
 }
 figcaption{
 	box-sizing:border-box;
 	margin-left:25%;
 }
-.leftcol img{
-	box-sizing:border-box;
-	width:240px;
-	height:200px;
-	border:2px solid grey;
-	display:block;
-	margin-left:50%;
-	margin-right:50%;
-	margin-top:10px;
-	margin-bottom:10px;
-	
-}
-.rightcol img{
-	box-sizing:border-box;
-	width:240px;
-	height:200px;
-	border:2px solid grey;
-	display:block;
-	margin-left:50%;
-	margin-right:50%;
-	margin-top:10px;
-	margin-bottom:10px;
-	
-}
-.centercol img{
-	box-sizing:border-box;
-	width:240px;
-	height:200px;
-	border:2px solid grey;
-	display:inline-block;
-	float:center;
-	margin-left:50%;
-	margin-right:50%;
-	margin-top:10px;
-	margin-bottom:10px;
-	
-}
+
 #sales, footer{
 	text-align:center;
 }
-#bh, #i, #s, #b h3{
+#bh, #i, #footer, #sales h3{
 	text-align:center;
 	color:rgb(211, 211, 211);
 }
-
+#b h3{
+		text-align:center;
+		color:rgb(211, 211, 211);
+}
 footer b{
 	color:#18b512e6;
 	font-size:131%;
 }
-.alert strong{
+footer .copyr{
+	font-size:70%;
+}
+.alert strong, {
 	font-size:151%;
 	
+}
+.bottomalert{
+	font-size:131%;
 }
