@@ -122,23 +122,25 @@ a:active{
 	padding:2px;
 	height:690px;
 	width:300px;
-	/* border:2px dotted red; */
+	border:2px dotted red;
 	margin-left:67px;
 	margin-bottom:30px;
 	text-align:center;
 	
+	
 }
-#i .rightcol{
+#i .rightcol {
 	display:inline-block;
 	float:right;
 	box-sizing:border-box;
 	padding:2px;
 	height:690px;
 	width:300px;
-	/* border:2px dotted blue; */
+	border:2px dotted blue;
 	margin-right:67px;
 	margin-bottom:30px;
 	text-align:center;
+	
 }
 #i .centercol{
 	display:inline-block;
@@ -147,7 +149,7 @@ a:active{
 	padding:2px;
 	height:690px;
 	width:300px;
-    /* border:2px dotted green; */
+    border:2px dotted green;
 	margin-right:20px;
 	margin-left:20px;
 	margin-bottom:30px;
