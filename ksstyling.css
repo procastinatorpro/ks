@@ -126,6 +126,7 @@ a:active{
 	margin-left:150px;
 	margin-bottom:30px;
 	text-align:center;
+	margin:auto;
 	
 }
 #i .rightcol{
@@ -139,7 +140,7 @@ a:active{
 	margin-right:150px;
 	margin-bottom:30px;
 	text-align:center;
-	
+	margin:auto;
 }
 #i .centercol{
 	display:inline-block;
@@ -153,6 +154,7 @@ a:active{
 	margin-left:20px;
 	margin-bottom:30px;
     text-align:center;
+	margin:auto;
 }
 #i img{
 	box-sizing:border-box;
