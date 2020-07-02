@@ -120,7 +120,7 @@ a:active{
 	float:left;
 	box-sizing:border-box;
 	padding:2px;
-	height:720px;
+	height:670px;
 	width:300px;
 	border:2px dotted red;
 	margin-left:40px;
@@ -134,7 +134,7 @@ a:active{
 	float:right;
 	box-sizing:border-box;
 	padding:2px;
-	height:720px;
+	height:670px;
 	width:300px;
 	border:2px dotted blue;
 	margin-right:40px;
@@ -147,7 +147,7 @@ a:active{
 	float:center;
 	box-sizing:border-box;
 	padding:2px;
-	height:720px;
+	height:670px;
 	width:300px;
     border:2px dotted green;
 	margin-right:20px;
@@ -163,7 +163,7 @@ a:active{
 	border:3px solid gray;
 	display:inline-block;
 	transition:tranform;
-	margin:15px;
+	margin:9px;
 	border-radius:10px;
 
 }
